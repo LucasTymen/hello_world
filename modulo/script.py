@@ -1,0 +1,6 @@
+my_team = (27 % 4)
+print(my_team)
+my_teammate1 = (26 % 4)
+print(my_teammate1)
+my_teammate2 = (28 % 4)
+print(my_teammate2)
