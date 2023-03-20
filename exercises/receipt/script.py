@@ -16,6 +16,18 @@ luxurious_lamp_price = 52.15
 
 sales_tax = 0.088
 
+header = """
+.   .-. . . .-. .   . .   .   .-. . . .-. .-. .-. .-. .-. .-.
+|   | | | | |-  |    |    |   | | | | |-  `-. |-  |-|  |  `-.
+`-' `-' `.' `-' `-'  `    `-' `-' `.' `-' `-' `-' ` '  '  `-'
+
+.-. .-. .-.   . . .-. .-. .-.   .-. . . .-. .-. .-. .-.
+|-  | | |(    |\| |-  |-|  |    `-. | |  |   |  |-  `-.
+'   `-' ' '   ' ` `-' ` '  '    `-' `-' `-'  '  `-' `-'
+
+
+"""
+print(header)
 # ######## custommers section ########
 customer_one_name = " Albert"
 customer_one_total = 0
@@ -35,3 +47,5 @@ print("------------")
 print("in cart :" + customer_one_itemization)
 print("------------")
 print(customer_one_total)
+print("total price : ")
+print(customer_one_total + customer_one_total * sales_tax)
