@@ -64,7 +64,9 @@ if [first_condition] or [second_condition]:
 Where [first condition] and [second condition] represent conditionals.
 Concept Review
 Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+
 ########################################################################################################################
+
 exo :
 statement_one = (2 - 1 > 3) or (-5 * 2 == -10)
 
