@@ -14,7 +14,7 @@ more:
 Let’s say we’re running a movie streaming platform and we want to write a program that checks if our users are over 13
 when showing them a PG-13 movie. We could write something like:
 """
-
+age =12
 if age <= 13:
   print("Sorry, parental control required")
 
@@ -32,7 +32,8 @@ Create an if statement that checks if x and y are equal, print the string below 
 
 Did you create an if statement that looks like:
 """
-
+a=2
+b=4
 if a == b:
   print("some message")
 
